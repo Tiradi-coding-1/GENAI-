@@ -41,9 +41,10 @@
 ## AI 工具鏈
 | 工具 | 用途 |
 |------|------|
-| Claude Code | 程式碼開發、專案管理 |
+| Claude Sonnet 4.6 | 開發內容規劃 |
 | Google Search | 股票族群研究 |
-| Gemini | K 線圖趨勢分析 |
+| Gemini 3 Pro | K 線圖趨勢分析 |
+| minimax m2.5 | 程式碼開發 |
 
 ---
 

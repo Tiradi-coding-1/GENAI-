@@ -8,7 +8,7 @@
 
 ## 系統環境
 
-- **作業系統**：macOS / Windows
+- **作業系統**：Windows 10
 - **Python 版本**：3.12+
 - **主要套件**：
   - `yfinance` - 股票數據抓取
@@ -19,7 +19,11 @@
 
 ## 工具鏈清單
 
-- **AI 對話工具**：Claude Code, Gemini
+- **AI 對話工具**：
+  - Claude Sonnet 4.6（開發內容規劃）
+  - Gemini 3 Pro（K線解析）
+  - minimax m2.5（程式開發）
+  - Google Search（股票族群研究）
 - **開發工具**：VS Code
 - **版本控制**：Git + GitHub
 
@@ -92,12 +96,12 @@ pytest tests/
 
 | Phase | 任務描述 | 使用 AI 工具 | 輸入 | 輸出 |
 |-------|---------|------------|------|------|
-| 0 | 專案初始化與環境建立 | Claude Code | 藍圖文件 | 資料夾結構、requirements.txt |
+| 0 | 專案初始化與環境建立 | minimax m2.5 | 藍圖文件 | 資料夾結構、requirements.txt |
 | 1 | 股票族群研究與分類 | Google Search | 分類 Prompt | 股票清單與入選理由 |
-| 2 | 台股 OHLCV 數據抓取 | Claude Code | data_fetcher Prompt | 3 個族群 CSV |
-| 3 | K 線圖繪製 | Claude Code | visualizer Prompt | 3 張族群 K 線圖 PNG |
-| 4 | 圖表趨勢分析 | Gemini | K 線圖 + 分析 Prompt | analysis.md |
-| 5 | README 與文件化 | Claude Code | 整份藍圖文件 | README.md |
+| 2 | 台股 OHLCV 數據抓取 | minimax m2.5 | data_fetcher Prompt | 3 個族群 CSV |
+| 3 | K 線圖繪製 | minimax m2.5 | visualizer Prompt | 3 張族群 K 線圖 PNG |
+| 4 | 圖表趨勢分析 | Gemini 3 Pro | K 線圖 + 分析 Prompt | analysis.md |
+| 5 | README 與文件化 | Claude Sonnet 4.6 | 整份藍圖文件 | README.md |
 
 ## Prompt 範例精選
 
