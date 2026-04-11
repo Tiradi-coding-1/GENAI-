@@ -13,6 +13,10 @@ import mplfinance as mpf
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from datetime import datetime
+import matplotlib
+
+matplotlib.rcParams["font.family"] = ["Adobe Fan Heiti Std", "Microsoft JhengHei", "SimHei", "Arial Unicode MS", "sans-serif"]
+matplotlib.rcParams["axes.unicode_minus"] = False
 
 
 STOCK_NAMES = {
