@@ -1,0 +1,6 @@
+__pycache__/
+.env
+data/
+charts/
+*.pyc
+.DS_Store
