@@ -24,7 +24,7 @@
   - Gemini 3 Pro（K線解析）
   - minimax m2.5（程式開發）
   - Google Search（股票族群研究）
-- **開發工具**：VS Code
+- **開發工具**：opencode
 - **版本控制**：Git + GitHub
 
 ## 資料夾結構
