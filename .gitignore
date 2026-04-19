@@ -2,5 +2,6 @@ __pycache__/
 .env
 data/
 charts/
+ppt/
 *.pyc
 .DS_Store

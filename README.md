@@ -27,6 +27,20 @@
 - **開發工具**：opencode
 - **版本控制**：Git + GitHub
 
+## 技術文件
+
+| 文件 | 說明 |
+|------|------|
+| [系統架構文件](docs/architecture.md) | 模組設計、資料流程、技術棧、測試架構 |
+| [Vibe Coding 方法論](docs/vibe-coding-methodology.md) | AI 工具鏈分工、Prompt 工程、挑戰與反思 |
+| [K 線圖趨勢分析](docs/analysis.md) | Gemini 3 Pro 產出的三族群技術分析報告 |
+| [Phase 0 計劃](docs/plans/2026-04-11-phase-0-init.md) | 專案初始化與環境建立 |
+| [Phase 1 計劃](docs/plans/2026-04-11-phase-1-stock-research.md) | 股票族群研究與分類 |
+| [Phase 2 計劃](docs/plans/2026-04-11-phase-2-data-fetcher.md) | 數據抓取實作 |
+| [Phase 3 計劃](docs/plans/2026-04-11-phase-3-visualizer.md) | K 線圖繪製實作 |
+| [Phase 4 計劃](docs/plans/2026-04-11-phase-4-analysis.md) | 圖表趨勢分析 |
+| [Phase 5 計劃](docs/plans/2026-04-11-phase-5-documentation.md) | README 與文件化 |
+
 ## 資料夾結構
 
 ```
@@ -34,12 +48,14 @@ taiwan-stock-analysis/
 ├── src/
 │   ├── data_fetcher.py      # 數據抓取模組
 │   └── visualizer.py        # K 線圖繪製模組
-├── data/                    # 存放抓取的 CSV
-├── charts/                  # 存放輸出的 K 線圖 PNG
+├── data/                    # 存放抓取的 CSV (gitignore)
+├── charts/                  # 存放輸出的 K 線圖 PNG (gitignore)
 ├── tests/                   # TDD 測試檔案
 ├── docs/
+│   ├── architecture.md      # 系統架構文件
+│   ├── vibe-coding-methodology.md  # Vibe Coding 方法論
 │   ├── analysis.md          # K 線圖趨勢分析報告
-│   └── plans/               # 實現計劃文件
+│   └── plans/               # 各 Phase 實現計劃 (Phase 0-5)
 ├── requirements.txt
 └── README.md
 ```
