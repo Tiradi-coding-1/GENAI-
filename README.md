@@ -49,7 +49,7 @@ taiwan-stock-analysis/
 │   ├── data_fetcher.py      # 數據抓取模組
 │   └── visualizer.py        # K 線圖繪製模組
 ├── data/                    # 存放抓取的 CSV (gitignore)
-├── charts/                  # 存放輸出的 K 線圖 PNG (gitignore)
+├── charts/                  # 存放輸出的 K 線圖 PNG
 ├── tests/                   # TDD 測試檔案
 ├── docs/
 │   ├── architecture.md      # 系統架構文件

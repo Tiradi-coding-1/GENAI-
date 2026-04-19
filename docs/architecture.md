@@ -177,7 +177,7 @@ taiwan-stock-analysis/
 │   ├── wafer_foundry.csv
 │   ├── ai_server.csv
 │   └── ai_cooling.csv
-├── charts/                      # K 線圖 PNG (gitignore)
+├── charts/                      # K 線圖 PNG
 │   ├── wafer_foundry.png
 │   ├── ai_server.png
 │   └── ai_cooling.png
